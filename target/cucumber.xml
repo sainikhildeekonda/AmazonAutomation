@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="23.307" tests="6" skipped="0" failures="0" errors="0">
+<testcase classname="Feature to test the flow Home Page of Amazon Web Application," name="Check for Amazon on Home Page" time="11.926">
+<system-out><![CDATA[
+Given User launch the browser...............................................passed
+When user open the amazon application.......................................passed
+Then Home Page of amazon should be displayed................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature to test the flow Home Page of Amazon Web Application," name="selecting the Hamburger on the home page" time="1.646">
+<system-out><![CDATA[
+Given check hamburger menu is displayed.....................................passed
+When User click on hamburger menu...........................................passed
+Then the menu should open and contents should be displayed..................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature to test the flow Home Page of Amazon Web Application," name="selecting Kindle under Digital Content and Devices" time="0.484">
+<system-out><![CDATA[
+Given check kindle in Digital Content and Devices is displayed..............passed
+When User click on kindle...................................................passed
+Then User should redirect to the Kinder E Reader menu.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature to test the flow Home Page of Amazon Web Application," name="selecting the all new kindle" time="4.494">
+<system-out><![CDATA[
+Given check all new kindle is displayed.....................................passed
+When User click on all new kindle...........................................passed
+Then the Kindle details page should be displayed............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature to test the flow of Kindle Product Details Amazon Web Application," name="Buying the new kindle" time="3.912">
+<system-out><![CDATA[
+Given check Buy now is displayed............................................passed
+When User click on buy now..................................................passed
+Then the User should be directed to login page..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature to test the flow of SignInPage for Username or mobilenumber validation after buynow in Amazon Web Application," name="Verifying if User is asked for email or mobile number" time="0.144">
+<system-out><![CDATA[
+Given check sign-in page is displayed.......................................passed
+When check if User is asked for email or mobile number......................passed
+Then user stays in same page................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
